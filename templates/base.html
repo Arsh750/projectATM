@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProjectATM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>ProjectATM</h1>
+        <nav>
+            <a href="/dashboard"><i class="fas fa-home"></i> Dashboard</a>
+            <a href="/account"><i class="fas fa-wallet"></i> Account</a>
+            <a href="/transaction"><i class="fas fa-exchange-alt"></i> Transactions</a>
+            <a href="/cards"><i class="fas fa-credit-card"></i> Cards</a>
+            <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </header>
+    <main>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

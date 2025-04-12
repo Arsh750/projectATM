@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome to the Dashboard, {{ username }}!</h2>
+<p>Select an option below:</p>
+<ul>
+    <li><a href="/account">Manage Account</a></li>
+    <li><a href="/transaction">Transactions</a></li>
+    <li><a href="/cards">Manage Cards</a></li>
+</ul>
+{% endblock %}

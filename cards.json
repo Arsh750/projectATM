@@ -1,0 +1,37 @@
+[
+    {
+        "card_id": "axis123",
+        "card_type": "debit",
+        "status": "Active"
+    },
+    {
+        "card_id": "axis123",
+        "card_type": "debit",
+        "status": "Active"
+    },
+    {
+        "card_id": "axis123",
+        "card_type": "debit",
+        "status": "Active"
+    },
+    {
+        "card_id": "hdfc321",
+        "card_type": "debit",
+        "status": "Active"
+    },
+    {
+        "card_id": "hdfc321",
+        "card_type": "debit",
+        "status": "Active"
+    },
+    {
+        "card_id": "kotakcredit123",
+        "card_type": "credit",
+        "status": "Active"
+    },
+    {
+        "card_id": "kotakcredit123",
+        "card_type": "credit",
+        "status": "Active"
+    }
+]

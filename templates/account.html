@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Account Management</h2>
+<p>Balance: ₹{{ account.balance }}</p>
+<form method="POST">
+    <label>Action:</label>
+    <select name="action" required>
+        <option value="deposit">Deposit</option>
+        <option value="withdraw">Withdraw</option>
+    </select><br>
+    <label>Amount:</label>
+    <input type="number" name="amount" min="1" required><br>
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}

@@ -1,0 +1,26 @@
+[
+    {
+        "transaction_id": "TXN123",
+        "cid": "CID123",
+        "transaction_type": "debit",
+        "transaction_amount": 100.0,
+        "remarks": "groceries",
+        "transaction_time": "2025-04-06 00:48:34"
+    },
+    {
+        "transaction_id": "TXN123",
+        "cid": "CID123",
+        "transaction_type": "debit",
+        "transaction_amount": 1000.0,
+        "remarks": "Dmart shopping",
+        "transaction_time": "2025-04-06 00:57:53"
+    },
+    {
+        "transaction_id": "TXN123",
+        "cid": "CID123",
+        "transaction_type": "debit",
+        "transaction_amount": 3000.0,
+        "remarks": "transfer",
+        "transaction_time": "2025-04-07 20:29:14"
+    }
+]

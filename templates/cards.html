@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Card Management</h2>
+<form method="POST">
+    <label>Card Type:</label>
+    <select name="card_type" required>
+        <option value="debit">Debit</option>
+        <option value="credit">Credit</option>
+    </select><br>
+    <label>Card ID:</label>
+    <input type="text" name="card_id" required><br>
+    <button type="submit">Add Card</button>
+</form>
+{% endblock %}
